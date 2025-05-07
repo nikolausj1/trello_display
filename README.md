@@ -39,6 +39,36 @@ python trello_display.py
 
 Press ESC to exit the application.
 
+### Auto-start on Boot (Raspberry Pi/Linux)
+
+To have the application start automatically when your Raspberry Pi or Linux system boots:
+
+1. Create an autostart desktop entry:
+   ```
+   mkdir -p ~/.config/autostart
+   nano ~/.config/autostart/trello-display.desktop
+   ```
+
+2. Add the following content (adjust the path if needed):
+   ```
+   [Desktop Entry]
+   Type=Application
+   Name=Trello Display
+   Exec=/home/your_username/path/to/trello_display.py
+   Terminal=false
+   X-GNOME-Autostart-enabled=true
+   ```
+
+3. Make the script executable:
+   ```
+   chmod +x /home/your_username/path/to/trello_display.py
+   ```
+
+4. Ensure the first line of your script includes the shebang:
+   ```python
+   #!/usr/bin/env python3
+   ```
+
 ## Configuration
 
 ### Getting Trello API Credentials

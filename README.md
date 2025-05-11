@@ -1,4 +1,5 @@
 # Trello Display
+![Trello Display Application Screenshot Collage](assets/list_undo_flow.png)
 
 A Python application that displays Trello cards from a specific list on a screen. Perfect for keeping track of tasks on a dedicated display.
 

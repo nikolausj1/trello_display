@@ -9,6 +9,7 @@ A Python application that displays Trello cards from a specific list on a screen
 - Full-screen display with hidden mouse cursor
 - Cards appear in dark rounded rectangles that grow vertically if text wraps
 - Periodically refreshes to show the latest cards (every 2 minutes)
+- Interactive task management: tap on a task to archive it with confirmation
 
 ## Installation
 
@@ -38,6 +39,14 @@ python trello_display.py
 ```
 
 Press ESC to exit the application.
+
+### Task Management
+
+To archive a task:
+1. Tap/click on any task in the display
+2. A confirmation dialog will appear asking if you want to archive the task
+3. Select "Yes" to archive the task or "No" to cancel
+4. If archived, the task will be immediately removed from the display
 
 ### Auto-start on Boot (Raspberry Pi/Linux)
 

@@ -1,7 +1,7 @@
-# Trello Display
+# Trello List on Raspberry Pi
 ![Trello Display Application Screenshot Collage](assets/list_undo_flow.png)
 
-A Python application that displays Trello cards from a specific list on a screen. Perfect for keeping track of tasks on a dedicated display.
+A Python application that displays your Trello to-do list on a Raspberry Pi screen. Perfect for keeping track of tasks on a dedicated display.
 
 ## Features
 
